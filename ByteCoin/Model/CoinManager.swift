@@ -17,8 +17,8 @@ struct CoinManager {
     
     var delegate: CoinManagerDelegate?
     
-//    let baseURL = "https://rest.coinapi.io/v1/exchangerate/?appid=MzRkZWM2YzBkOGQwNGExNjkwNjIzNTY0NWQ3NTc1NTM&BTC"
-    let apiKey = "MzRkZWM2YzBkOGQwNGExNjkwNjIzNTY0NWQ3NTc1NTM"
+//    let baseURL = "https://rest.coinapi.io/v1/exchangerate/?appid=YOUR_APP_ID"
+    let apiKey = "YOUR_API_KEY"
     let baseURL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTC"
     
     
